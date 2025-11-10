@@ -16,8 +16,9 @@
     <form class="container needs-validation" novalidate>
         <div class="card text-center m-3 p-1">
             <h4 class="card-header d-flex">Payment form example </h4>
-            <div class="alert alert-danger d-flex m-3" role="alert">
+            <div class="alert alert-danger d-flex m-3 alert-warning alert-dismissible fade show" role="alert">
                 Some fields are missing
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <div class="row justify-content-betwee m-1">
                 <div class="col-md-4 g-3 justify-content-between text-start">
@@ -44,7 +45,7 @@
                 </div>
                 <div class="col-md-6 g-3 justify-content-between text-start">
                     <label for="validationCustom03" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="inputText"required>
+                    <input type="text" class="form-control" id="inputText" required>
                 </div>
             </div>
             <div class="row justify-content-between m-1">
@@ -77,26 +78,31 @@
                     <p>We accept:</p>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                            value="option1"required>
+                            value="option1">
                         <label class="form-check-label" for="inlineRadio1"><i
                                 class="fa-brands fa-cc-mastercard"></i></label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                            value="option2"required>
+                            value="option2" >
                         <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                            value="option3"required>
+                            value="option3" >
                         <label class="form-check-label" for="inlineRadio3"><i
                                 class="fa-brands fa-cc-diners-club"></i></label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                            value="option4"required>
+                            value="option4" >
                         <label class="form-check-label" for="inlineRadio4"><i
-                                class="fa-brands fa-cc-amex"></i></i></label>
+                                class="fa-brands fa-cc-amex"></i></label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option5" >
+                        <label class="form-check-label" for="inlineRadio5"><i class="fa-brands fa-cc-paypal"></i></label>
                     </div>
                 </div>
                 <div class="col-md-6 g-3 justify-content-between text-start">
@@ -108,7 +114,7 @@
                 </div>
             </div>
             <div class="card-footer text-body-secondary text-end">
-                <button type="cancel"class="btn btn-secondary">Cancel</button>
+                <button type="cancel" class="btn btn-secondary">Cancel</button>
                 <button type="submit" class="btn btn-primary">Send</button>
             </div>
         </div>
@@ -139,7 +145,5 @@
             })
         })()
     </script>
-
 </body>
-
 </html>
