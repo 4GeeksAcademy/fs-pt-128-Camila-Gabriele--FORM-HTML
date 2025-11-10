@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Form con HTML</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card text-center m-3 p-1">
+            <h4 class="card-header d-flex">Payment form example </h4>
+            <div class="alert alert-danger d-flex m-3" role="alert">
+                Some fields are missing
+            </div>
+            <div class="row justify-content-betwee m-1">
+                <div class="col-md-4 g-3 justify-content-between text-start">
+                    <label for="number" class="form-label">Card #</label>
+                    <input type="number" class="form-control" placeholder="xxxxxxxxxxxxxxxxxxxxx">
+                </div>
+                <div class="col-md-4 g-3 justify-content-between text-start">
+                    <label for="number" class="form-label">CVC #</label>
+                    <input type="number" class="form-control" placeholder="000">
+                </div>
+                <div class="col-md-4 g-3 justify-content-between text-start">
+                    <div class="input-group">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" placeholder="Amount"
+                            aria-label="Amount (to the nearest dollar) pla">
+                        <span class="input-group-text">.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between m-1">
+                <div class="col-md-6 g-3 justify-content-between text-start">
+                    <label for="inputText" class="form-label">Firt Name</label>
+                    <input type="text" class="form-control" id="inputText">
+                </div>
+                <div class="col-md-6 g-3 justify-content-between text-start">
+                    <label for="inputText" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputText">
+                </div>
+
+            </div>
+
+            <div class="row justify-content-between m-1">
+                <div class="col-md-6 g-3 justify-content-between text-start">
+                    <label for="inputText" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputText">
+                </div>
+                <div class="col-md-3 g-3 justify-content-between text-start">
+                    <label for="inputText" class="form-label">State</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Pick a state</option>
+                        <option value="1">Madrid</option>
+                        <option value="2">Barcelona</option>
+                        <option value="3">Valencia</option>
+                        <option value="3">Islas Baleares</option>
+                        <option value="3">Alicante</option>
+                        <option value="3">Marbella</option>
+                        <option value="3">Girona</option>
+                        <option value="3">A Coruña</option>
+                        <option value="3">Oviedo</option>
+                    </select>
+                </div>
+                <div class="col-md-3 g-3 justify-content-between text-start">
+                    <label for="inputNumber" class="form-label">Postal Code</label>
+                    <input type="number" class="form-control" id="inputNumber">
+                </div>
+            </div>
+
+            <div class="row justify-content-between m-1">
+                <div class="col-md-6 g-3 justify-content-between text-start">
+                    <p>We accept:</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">1</label>
+                    </div>
+
+                </div>
+                <div class="col-md-6 g-3 justify-content-between text-start">
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="card-footer text-body-secondary text-end">
+                <a href="#" class="btn btn-secondary">Cancel</a>
+                <a href="#" class="btn btn-primary">Send</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
